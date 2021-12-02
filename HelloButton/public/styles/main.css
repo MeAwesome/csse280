@@ -1,0 +1,32 @@
+html{
+    background-color: #7a0005;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.autoheight{
+    height: auto !important;
+}
+
+.boxed{
+    border: 3px solid #dddddd;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
+
+.button{
+    margin: 0px 10px;
+}
+
+.button:hover{
+    background-color: #db9696;
+}
+
+#counter{
+    padding: 0px 10px;
+}
