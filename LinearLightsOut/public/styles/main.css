@@ -1,7 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-    background-color: red;
+    background-color: #7f0808;
 }
 
 .fixed-top {
     position: sticky;
+}
+
+.container {
+    display: flex;
 }
