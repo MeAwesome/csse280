@@ -3,14 +3,47 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #dddddd;
+}
+
+button {
+    margin: 0.5em;
+    padding: 1.5em 1em;
+    border: none;
+}
+
 .navbar {
     background-color: #7f0808;
+    font-size: 2em;
+    color: #ffffff;
 }
 
 .fixed-top {
     position: sticky;
 }
 
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.yellow {
+    background-color: #f8c02e;
+    color: #000000;
+}
+
+.grey {
+    background-color: #343a40;
+    color: #ffffff;
 }
