@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+        <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Yahtzee</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Yahtzee</a>
+        </nav>
+        <div id="mainPage" class="container page-container">
+
+            <h1 class="text-center" id="gameStateText">You have 1 roll left</h1>
+
+            <div id="diceRow" class="row no-gutters">
+                <div class="col">
+                    <img class="die img-fluid" src="images/die1R.jpg" alt="Die">
+                </div>
+                <div class="col">
+                    <img class="die img-fluid" src="images/die1R.jpg" alt="Die">
+                </div>
+                <div class="col">
+                    <img class="die img-fluid" src="images/die1R.jpg" alt="Die">
+                </div>
+                <div class="col">
+                    <img class="die img-fluid" src="images/die1R.jpg" alt="Die">
+                </div>
+                <div class="col">
+                    <img class="die img-fluid" src="images/die1R.jpg" alt="Die">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div id="rollButtonColumn" style="display:none;" class="col-12 col-sm-6 col-md-4">
+                    <button id="rollButton" tyle="button" class="btn btn-outline-primary btn-block">Roll</button>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <button id="newRoundButton" tyle="button" class="btn btn-outline-primary btn-block">New Round</button>
+                </div>
+            </div>
+
+        </div>
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/popper.js"></script>
+        <script src="scripts/bootstrap-material-design.js"></script>
+        <script>$("body").bootstrapMaterialDesign();</script>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>

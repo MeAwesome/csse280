@@ -1,0 +1,16 @@
+body {
+    background: #ffffff;
+}
+
+.navbar {
+    background-color: #800000;
+    color: #ffffff;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+#diceRow {
+    margin: 50px 0;
+}
