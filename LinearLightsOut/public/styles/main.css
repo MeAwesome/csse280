@@ -43,7 +43,24 @@ button {
     color: #000000;
 }
 
+.yellow:hover {
+    background-color: #dba723;
+}
+
 .grey {
     background-color: #343a40;
     color: #ffffff;
+}
+
+.grey:hover {
+    background-color: #272b2e;
+}
+
+#newGame {
+    background-color: #7f0808;
+    color: #ffffff;
+}
+
+#newGame:hover {
+    background-color: #630c0c;
 }
