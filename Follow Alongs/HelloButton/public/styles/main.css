@@ -1,32 +1,23 @@
-html{
-    background-color: #7a0005;
+body {
+    background: #800000;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+.button-group {
+    text-align: center;
+    /* border: grey solid 5px; */
+    padding: 5vw;
 }
 
-.autoheight{
-    height: auto !important;
+.button-group>button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0 10px;
 }
 
-.boxed{
-    border: 3px solid #dddddd;
-    background-color: #ffffff;
-    border-radius: 10%;
-}
-
-.button{
-    margin: 0px 10px;
-}
-
-.button:hover{
-    background-color: #db9696;
-}
-
-#counter{
-    padding: 0px 10px;
+#counterText {
+    color: white;
+    font: 4em Consolas, Arial, sans-serif;
+    /* font-family: Consolas, Arial, sans-serif;
+    font-size: 4em; */
+    text-align: center;
 }

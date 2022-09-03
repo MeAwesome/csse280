@@ -1,12 +1,27 @@
-var value;
+var counter = 0;
 
-updateCounter(null);
+function main(){
+    console.log("Ready");
 
-function updateCounter(amount){
-    if(amount == null){
-        value = 0;
-        amount = 0;
+    document.querySelector("#decButton").onclick = (event) => {
+        counter = counter - 1;
+        updateView();
     }
-    value += amount;
-    document.querySelector("#counter").innerHTML = value;
+
+    document.querySelector("#resetButton").onclick = (event) => {
+        counter = 0;
+        updateView();
+    }
+
+    document.querySelector("#incButton").onclick = (event) => {
+        counter = counter + 1;
+        updateView();
+    }
 }
+
+function updateView(){
+    // document.querySelector("#counterText").innerHTML = "Count = " + counter;
+    document.querySelector("#counterText").innerHTML = `Count = ${counter}`;
+}
+
+main();
